@@ -1,0 +1,22 @@
+
+
+#cuda install 
+conda install -c anaconda cudatoolkit
+conda install -c anaconda cudnn
+
+#check cuda 
+nvidia-smi
+nvcc --version
+
+#dependencies
+pip install opencv-python==3.4.17.63
+#or
+pip install opencv-python
+pip install tensorflow
+
+
+#start training
+python training-sample.py 
+
+#start test app
+python test-app.py
