@@ -20,15 +20,15 @@ def copyDirectory(src , dest):
 		return 3
 
 
-path_dest = '../training_out/' # The folder where we will put all our training samples
-path_source = "D:\\jasper\\Train\\" # The folder that contains all the data (Jester 20bn)
-csv_file = 'data_csv/jester-v1-train-luna.csv' # training csv file
+path_dest = '../training_out2/' # The folder where we will put all our training samples
+path_source = "D:\\20bn-jester\\Train\\" # The folder that contains all the data (Jester 20bn)
+csv_file = 'data_csv/20bn-jasper-subset-training-swipe.csv' # training csv file
 
 file = open(csv_file, 'r')
 reader = csv.reader(file, delimiter=';')
 count = 0
-simple = 1500 # number of samples by class for training
-class_ = ['Swiping Left', 'Swiping Right', 'Swiping Down', 'Swiping Up'] # The classes we want to use
+simple = 3000 # number of samples by class for training
+class_ = ['Swiping Left', 'Swiping Right', 'Swiping Down', 'Swiping Up', 'No gesture'] # The classes we want to use
 rows = []
 
 for c in class_:

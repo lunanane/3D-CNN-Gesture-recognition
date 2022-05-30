@@ -20,15 +20,15 @@ def copyDirectory(src , dest):
 		return 3
 
 
-path_dest = 'validation_samples' # The folder where we will put all our validation samples
-path_source = '20BN-JESTER' # The folder that contains all the data (Jester 20bn)
-csv_file = 'data_csv/jester-v1-validation.csv' # validation csv file
+path_dest = '../validation_out2/' # The folder where we will put all our validation samples
+path_source = "D:\\20bn-jester\\Validation\\" # The folder that contains all the data (Jester 20bn)
+csv_file = 'data_csv/20bn-jasper-subset-validation-swipe.csv' # validation csv file
 
 file = open(csv_file, 'r')
 reader = csv.reader(file, delimiter=';')
 count = 0
-simple = 500 # number of samples by class for validation
-class_ = ['Thumb Up', 'Swiping Right', 'Sliding Two Fingers Left', 'No gesture'] # The classes we want to use
+simple = 3000 # number of samples by class for validation
+class_ = ['Swiping Left', 'Swiping Right', 'Swiping Down', 'Swiping Up', 'No gesture'] # The classes we want to use
 rows = []
 
 for c in class_:
