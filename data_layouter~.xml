@@ -29,9 +29,9 @@
    <LINK srcnodeid="0" srcpinname="Content" dstnodeid="1" dstpinname="Input String">
    </LINK>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="2">
-   <BOUNDS type="Box" left="3300" top="1110" width="480" height="480">
+   <BOUNDS type="Box" left="3390" top="1545" width="480" height="480">
    </BOUNDS>
-   <BOUNDS type="Node" left="3300" top="1110" width="0" height="0">
+   <BOUNDS type="Node" left="3390" top="1545" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0">
    </PIN>
@@ -237,7 +237,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="2820" top="12195" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Input String" slicecount="1" visible="1" values="data_csv\20bn-jasper-subset-validation-swipe-with-index.csv">
+   <PIN pinname="Input String" slicecount="1" visible="1" values="data_csv\20bn-jasper-subset-training-swipe-with-index.csv">
    </PIN>
    <PIN pinname="Default" slicecount="1" values="file.txt">
    </PIN>
@@ -255,7 +255,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="1620" top="885" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Input String" slicecount="1" visible="1" values="data_csv\20bn-jasper-subset-validation-swipe.csv">
+   <PIN pinname="Input String" slicecount="1" visible="1" values="data_csv\20bn-jasper-subset-training-swipe.csv">
    </PIN>
    <PIN pinname="Default" slicecount="1" values="file.txt">
    </PIN>
