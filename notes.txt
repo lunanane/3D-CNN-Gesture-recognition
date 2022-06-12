@@ -13,6 +13,8 @@ pip install opencv-python==3.4.17.63
 #or
 pip install opencv-python
 pip install tensorflow
+pip install sklearn
+
 
 
 #start training

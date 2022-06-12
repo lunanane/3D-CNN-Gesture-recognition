@@ -15,10 +15,10 @@ from time import sleep
 
 #%%
 classes = [
+     "Swiping Left",
     "Swiping Right",
-    "Sliding Two Fingers Left",
-    "No gesture",
-    "Thumb Up"
+    "Swiping Down",
+    "No gesture"
     ]
 #%%
 def rgb2gray(rgb):
@@ -80,7 +80,7 @@ new_model.compile(loss='sparse_categorical_crossentropy',
                   optimizer=tf.keras.optimizers.RMSprop())
 
 #%%
-new_model.load_weights('weights/path_to_my_weights2')
+new_model.load_weights('weights/luna_gesture_model1_20epochs_DATASETREWORK')
 
 #%%
 to_predict = []
